@@ -47,7 +47,7 @@ GameOver.prototype =
 
     twitterShareScore: function()
     {
-        var encodedText = encodeURI("Just scored " + this.Game().getScore().toString() + " playing the @paddlegame. See if you can beat my score!");
+        var encodedText = encodeURI("Just scored " + this.Game().getScore().toString() + " playing the TreSensa Paddle Game. See if you can beat my score @paddlegame");
         var encodedURL = encodeURI("http://games.tresensa.com/tutorials/paddle/index.html");
         var encodedRelated = encodeURI("tresensa:Built on TreSensa");
         var finalURL = "http://twitter.com/intent/tweet?text=" + encodedText + "&url=" + encodedURL + "&related=" + encodedRelated;
